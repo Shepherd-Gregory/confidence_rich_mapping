@@ -1,6 +1,7 @@
-# CRMI: Confidence-rich mutual information for information-theoretic mapping
+# Information-theoretic robot exploration using confidence-rich mutual information (CRMI)
 
 ## README
 
-This repo is preserved for the CRMI paper submitted to RAL with IROS2021 option.
+This repo is preserved for the CRMI-based robot exploration.
+
 The code and examples are with Matlab and will be released soon.
