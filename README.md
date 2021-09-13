@@ -1,7 +1,7 @@
-# Information-theoretic robot exploration using confidence-rich mutual information (CRMI)
+# A simple implementation of Confidence-rich Mapping using histogram approximation
 
 ## README
 
-This repo is preserved for the CRMI-based robot exploration.
+This repo is preserved for CRM codes.
 
-The code and examples are with Matlab and will be released soon.
+The codes and examples are with Matlab and will be released soon.
