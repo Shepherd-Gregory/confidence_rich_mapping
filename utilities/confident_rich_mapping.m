@@ -1,7 +1,7 @@
 function [myMap, com, bin_m, bel_m, exp_m ]  = confident_rich_mapping(V_ray, ray, myMap, ix_robot, iy_robot, com, bin_m, bel_m, exp_m, param)
     %% CRM
     res_m = param.res_m;
-    vec_com = 1/res_m * (1:1:param.res_m);
+    vec_com = 1/res_m * (0:1:param.res_m-1);
     eta = 0;
     vec_scm = zeros(length(V_ray));
     for j = 1:length(V_ray)
@@ -59,7 +59,7 @@ function [myMap, com, bin_m, bel_m, exp_m ]  = confident_rich_mapping(V_ray, ray
         alpha(j) = (1  - beta(j))/exp_m(V_ray(j));
     end
 
-    % 计算更新信度值 ,此处乘上mi
+    % update the discretized belief
     for j = 1:size(V_ray)
         bel_m(:,V_ray(j)) = bel_m(:,V_ray(j)) .* (alpha(j) * vec_com'  +  beta(j) * ones(param.res_m,1));
 		% normalization
