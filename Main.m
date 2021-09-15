@@ -39,8 +39,8 @@ param.dev = 0.1 / param.resol;
 param.maxrange = 8; % in meter
 param.flag = 0; % 0 for ijrr map; 1 for wall
 %% load your dataset
-% load wallData.mat
-load ijrrCRM.mat
+% load datasets\wallData.mat
+load datasets\ijrrCRM.mat
 
 test_scan = [1:60];
 test_step = 1;
