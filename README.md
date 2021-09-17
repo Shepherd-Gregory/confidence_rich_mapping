@@ -2,6 +2,6 @@
 
 ## README
 
-This repo is preserved for CRM codes.
+This repo is preserved for CRM codes in Matlab.
 
-The codes and examples are with Matlab and will be released soon.
+The following code for CRMI will also be released soon.
