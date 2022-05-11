@@ -15,13 +15,14 @@ This repo is preserved for CRM Matlab codes. For more details, please refer to t
   volume    = {38},
   publisher = {SAGE Publications Sage UK: London, England},
 }
+
 @Article{yang2021crmi,
   author  = {Xu, Yang and Zheng, Ronghao and Liu, Meiqin and Zhang, Senlin},
   journal = {IEEE Robotics and Automation Letters},
   title   = {{CRMI}: Confidence-rich mutual information for information-theoretic mapping},
   year    = {2021},
   number  = {4},
-  pages   = {6434-6441},
+  pages   = {6434--6441},
   volume  = {6},
   doi     = {10.1109/LRA.2021.3093023},
 }
