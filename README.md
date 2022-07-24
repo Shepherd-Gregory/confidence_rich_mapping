@@ -1,7 +1,9 @@
 # CRM example
-A simple implementation of Confidence-rich mapping using discrete belief approximation
+A simple implementation of confidence-rich mapping (CRM) using discrete belief approximation
 ## README
-This repo is preserved for CRM Matlab codes. For more details, please refer to the following papers.
+This repo is preserved for CRM Matlab codes. For more details, please see the following papers.
+
+If you find this package useful for your research, please consider citing the following papers:
 
 **References**
 ```
